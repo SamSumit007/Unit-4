@@ -78,16 +78,14 @@ app.get("/books", function(request, response){
     response.send(JSON.stringify(books))
 });
 
-    app.get("/Ulysses", function(request, response){
-        return response.send({ route: "/Ulysses"})
+    app.get("/books/:Ulysses", function(request, response){
+        console.log("books");
+        return response.send({ Book_Name:request.params.Ulysses})
 
 });
 
 
-app.get("/Beloved", function(request, response){
-    return response.send({ route: "/Beloved"})
 
-});
 
 function logger(request,response, next){
     console.log ( "Fetching all books");
