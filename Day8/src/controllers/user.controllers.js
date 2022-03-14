@@ -40,14 +40,14 @@ router.get("/", async (req, res) => {
 
 router.post("/", async (req, res) => {
   try {
-   // console.log("here");
+    //console.log("here");
     const user = await User.create(req.body);
 
     transporter.sendMail({
       from: '"Amazon admin" <admin@amazon.com>', // sender address
       to: user.email, // list of receivers
-      subject: " Welcome to ABC system{user.first_name},{ user.last_name}",                 // Subject line
-      text: "Hi{first_name}, Please confirm your email address",   // plain text body
+      subject: `Welcome to ABC system ${user.first_name},${ user.last_name}` ,                 // Subject line
+      text: `Hi,${user.first_name}, Please confirm your email address`,   // plain text body
    
       alternatives: [
         {
