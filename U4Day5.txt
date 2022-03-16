@@ -1,0 +1,1333 @@
+ db.users.find({"movie_name ":{$eq: "Secret of NIMH, The" }}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee1"),
+        "id" : 1,
+        "movie_name " : "Secret of NIMH, The",
+        "movie_genre" : "Adventure|Animation|Children|Drama",
+        " production_year " : 2000,
+        "budget" : 9389
+}
+
+>  db.users.find({"movie_name ":{$ne: "Secret of NIMH, The" }}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee2"),
+        "id" : 2,
+        "movie_name " : "Downhill Racer",
+        "movie_genre" : "Drama",
+        " production_year " : 2001,
+        "budget" : 13029
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee3"),
+        "id" : 3,
+        "movie_name " : "Legally Blondes",
+        "movie_genre" : "Children|Comedy",
+        " production_year " : 2012,
+        "budget" : 19437
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee4"),
+        "id" : 4,
+        "movie_name " : "Mister Lonely",
+        "movie_genre" : "Comedy|Drama",
+        " production_year " : 2003,
+        "budget" : 18810
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee5"),
+        "id" : 5,
+        "movie_name " : "Ultramarathon Man: 50 Marathons, 50 States, 50 Days",
+        "movie_genre" : "Documentary",
+        " production_year " : 1996,
+        "budget" : 19374
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee6"),
+        "id" : 6,
+        "movie_name " : "Piano, The",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 1990,
+        "budget" : 11213
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee7"),
+        "id" : 7,
+        "movie_name " : "Caesar (Julius Caesar)",
+        "movie_genre" : "Drama|War",
+        " production_year " : 2003,
+        "budget" : 16525
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee8"),
+        "id" : 8,
+        "movie_name " : "Killing Me Softly",
+        "movie_genre" : "Drama|Mystery|Romance|Thriller",
+        " production_year " : 1993,
+        "budget" : 17838
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee9"),
+        "id" : 9,
+        "movie_name " : "Hole in the Head, A",
+        "movie_genre" : "Comedy|Musical",
+        " production_year " : 1991,
+        "budget" : 14955
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeea"),
+        "id" : 10,
+        "movie_name " : "My Neighbors the Yamadas (Hôhokekyo tonari no Yamada-kun)",
+        "movie_genre" : "Animation|Comedy",
+        " production_year " : 2016,
+        "budget" : 10385
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeeb"),
+        "id" : 11,
+        "movie_name " : "Kuffs",
+        "movie_genre" : "Action|Comedy|Crime",
+        " production_year " : 2006,
+        "budget" : 10039
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeec"),
+        "id" : 12,
+        "movie_name " : "Steal This Movie!",
+        "movie_genre" : "Drama",
+        " production_year " : 2018,
+        "budget" : 13919
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeed"),
+        "id" : 13,
+        "movie_name " : "Get Educated: Paathshaala",
+        "movie_genre" : "Drama",
+        " production_year " : 2010,
+        "budget" : 11053
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeee"),
+        "id" : 14,
+        "movie_name " : "Miracle in Milan (Miracolo a Milano)",
+        "movie_genre" : "Comedy|Drama|Fantasy",
+        " production_year " : 2012,
+        "budget" : 18920
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeef"),
+        "id" : 15,
+        "movie_name " : "In a Dark Place",
+        "movie_genre" : "Horror|Mystery|Thriller",
+        " production_year " : 2005,
+        "budget" : 18738
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef0"),
+        "id" : 16,
+        "movie_name " : "112 Weddings",
+        "movie_genre" : "Documentary|Romance",
+        " production_year " : 2009,
+        "budget" : 19986
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef1"),
+        "id" : 17,
+        "movie_name " : "Abandoned",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        " production_year " : 2019,
+        "budget" : 16420
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef2"),
+        "id" : 18,
+        "movie_name " : "P2",
+        "movie_genre" : "Horror|Thriller",
+        " production_year " : 2017,
+        "budget" : 17772
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef3"),
+        "id" : 19,
+        "movie_name " : "Wild About Harry",
+        "movie_genre" : "Comedy|Drama|Romance",
+        " production_year " : 1996,
+        "budget" : 9019
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef4"),
+        "id" : 20,
+        "movie_name " : "Son of Dracula",
+        "movie_genre" : "Horror",
+        " production_year " : 2008,
+        "budget" : 12368
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef5"),
+        "id" : 21,
+        "movie_name " : "Chatroom",
+        "movie_genre" : "Crime|Drama|Mystery|Thriller",
+        " production_year " : 1992,
+        "budget" : 13773
+}
+Type "it" for more
+> Type "it" for more
+uncaught exception: SyntaxError: unexpected token: string literal :
+@(shell):1:5
+> db.users.find({$and : [{"budget":{$gt:18000}},{"budget":{$gte:19000}}]}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee3"),
+        "id" : 3,
+        "movie_name " : "Legally Blondes",
+        "movie_genre" : "Children|Comedy",
+        " production_year " : 2012,
+        "budget" : 19437
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee5"),
+        "id" : 5,
+        "movie_name " : "Ultramarathon Man: 50 Marathons, 50 States, 50 Days",
+        "movie_genre" : "Documentary",
+        " production_year " : 1996,
+        "budget" : 19374
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef0"),
+        "id" : 16,
+        "movie_name " : "112 Weddings",
+        "movie_genre" : "Documentary|Romance",
+        " production_year " : 2009,
+        "budget" : 19986
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af04"),
+        "id" : 36,
+        "movie_name " : "Ewok Adventure, The (a.k.a. Caravan of Courage: An Ewok Adventure)",
+        "movie_genre" : "Adventure|Children|Fantasy|Sci-Fi",
+        " production_year " : 2006,
+        "budget" : 19671
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af0b"),
+        "id" : 43,
+        "movie_name " : "Happy Together",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 2014,
+        "budget" : 19164
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af13"),
+        "id" : 51,
+        "movie_name " : "Admission",
+        "movie_genre" : "Comedy|Romance",
+        " production_year " : 2014,
+        "budget" : 19731
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af15"),
+        "id" : 53,
+        "movie_name " : "Fourth Kind, The",
+        "movie_genre" : "Horror|Mystery|Sci-Fi|Thriller",
+        " production_year " : 2012,
+        "budget" : 19453
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af51"),
+        "id" : 113,
+        "movie_name " : "THX 1138",
+        "movie_genre" : "Action|Adventure|Drama|Sci-Fi",
+        " production_year " : 1994,
+        "budget" : 19798
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af6a"),
+        "id" : 138,
+        "movie_name " : "Man Who Laughs, The",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 1999,
+        "budget" : 19177
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af6c"),
+        "id" : 140,
+        "movie_name " : "Villain, The",
+        "movie_genre" : "Comedy|Western",
+        " production_year " : 2002,
+        "budget" : 19747
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af7b"),
+        "id" : 155,
+        "movie_name " : "Arrapaho",
+        "movie_genre" : "Comedy|Western",
+        " production_year " : 2002,
+        "budget" : 19054
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af89"),
+        "id" : 169,
+        "movie_name " : "Tension",
+        "movie_genre" : "Crime|Drama|Film-Noir|Romance",
+        " production_year " : 1992,
+        "budget" : 19394
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af8b"),
+        "id" : 171,
+        "movie_name " : "Flashpoint",
+        "movie_genre" : "Action|Adventure|Crime|Mystery|Thriller",
+        " production_year " : 2008,
+        "budget" : 19309
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af99"),
+        "id" : 185,
+        "movie_name " : "Robot Carnival (Roboto kânibauru)",
+        "movie_genre" : "Animation|Comedy|Drama|Fantasy|Sci-Fi",
+        " production_year " : 1997,
+        "budget" : 19195
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af9d"),
+        "id" : 189,
+        "movie_name " : "The Batman vs. Dracula",
+        "movie_genre" : "Action|Animation|Horror|Thriller",
+        " production_year " : 1993,
+        "budget" : 19469
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afa1"),
+        "id" : 193,
+        "movie_name " : "Never Sleep Again: The Elm Street Legacy",
+        "movie_genre" : "Documentary",
+        " production_year " : 2009,
+        "budget" : 19632
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afae"),
+        "id" : 206,
+        "movie_name " : "Marie from the Bay of Angels (Marie Baie Des Anges)",
+        "movie_genre" : "Drama",
+        " production_year " : 2014,
+        "budget" : 19829
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afaf"),
+        "id" : 207,
+        "movie_name " : "Absent-Minded Professor, The",
+        "movie_genre" : "Children|Comedy|Fantasy",
+        " production_year " : 1990,
+        "budget" : 19039
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afca"),
+        "id" : 234,
+        "movie_name " : "Oz the Great and Powerful",
+        "movie_genre" : "Action|Adventure|Fantasy|IMAX",
+        " production_year " : 1998,
+        "budget" : 19846
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afdb"),
+        "id" : 251,
+        "movie_name " : "Quick and the Dead, The",
+        "movie_genre" : "Action|Thriller|Western",
+        " production_year " : 1998,
+        "budget" : 19522
+}
+Type "it" for more
+>
+>  db.users.find({$and : [{"budget":{$not : {$gt:18000}}},{"budget":{$not: {$gte:19000}}}]}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee1"),
+        "id" : 1,
+        "movie_name " : "Secret of NIMH, The",
+        "movie_genre" : "Adventure|Animation|Children|Drama",
+        " production_year " : 2000,
+        "budget" : 9389
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee2"),
+        "id" : 2,
+        "movie_name " : "Downhill Racer",
+        "movie_genre" : "Drama",
+        " production_year " : 2001,
+        "budget" : 13029
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee6"),
+        "id" : 6,
+        "movie_name " : "Piano, The",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 1990,
+        "budget" : 11213
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee7"),
+        "id" : 7,
+        "movie_name " : "Caesar (Julius Caesar)",
+        "movie_genre" : "Drama|War",
+        " production_year " : 2003,
+        "budget" : 16525
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee8"),
+        "id" : 8,
+        "movie_name " : "Killing Me Softly",
+        "movie_genre" : "Drama|Mystery|Romance|Thriller",
+        " production_year " : 1993,
+        "budget" : 17838
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee9"),
+        "id" : 9,
+        "movie_name " : "Hole in the Head, A",
+        "movie_genre" : "Comedy|Musical",
+        " production_year " : 1991,
+        "budget" : 14955
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeea"),
+        "id" : 10,
+        "movie_name " : "My Neighbors the Yamadas (Hôhokekyo tonari no Yamada-kun)",
+        "movie_genre" : "Animation|Comedy",
+        " production_year " : 2016,
+        "budget" : 10385
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeeb"),
+        "id" : 11,
+        "movie_name " : "Kuffs",
+        "movie_genre" : "Action|Comedy|Crime",
+        " production_year " : 2006,
+        "budget" : 10039
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeec"),
+        "id" : 12,
+        "movie_name " : "Steal This Movie!",
+        "movie_genre" : "Drama",
+        " production_year " : 2018,
+        "budget" : 13919
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeed"),
+        "id" : 13,
+        "movie_name " : "Get Educated: Paathshaala",
+        "movie_genre" : "Drama",
+        " production_year " : 2010,
+        "budget" : 11053
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef1"),
+        "id" : 17,
+        "movie_name " : "Abandoned",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        " production_year " : 2019,
+        "budget" : 16420
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef2"),
+        "id" : 18,
+        "movie_name " : "P2",
+        "movie_genre" : "Horror|Thriller",
+        " production_year " : 2017,
+        "budget" : 17772
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef3"),
+        "id" : 19,
+        "movie_name " : "Wild About Harry",
+        "movie_genre" : "Comedy|Drama|Romance",
+        " production_year " : 1996,
+        "budget" : 9019
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef4"),
+        "id" : 20,
+        "movie_name " : "Son of Dracula",
+        "movie_genre" : "Horror",
+        " production_year " : 2008,
+        "budget" : 12368
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef5"),
+        "id" : 21,
+        "movie_name " : "Chatroom",
+        "movie_genre" : "Crime|Drama|Mystery|Thriller",
+        " production_year " : 1992,
+        "budget" : 13773
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef6"),
+        "id" : 22,
+        "movie_name " : "There Goes My Heart",
+        "movie_genre" : "Comedy|Romance",
+        " production_year " : 2016,
+        "budget" : 14829
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef7"),
+        "id" : 23,
+        "movie_name " : "World on a Wire (Welt am Draht)",
+        "movie_genre" : "Crime|Sci-Fi",
+        " production_year " : 2014,
+        "budget" : 14214
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef8"),
+        "id" : 24,
+        "movie_name " : "Triangle",
+        "movie_genre" : "Drama|Horror|Mystery|Thriller",
+        " production_year " : 2001,
+        "budget" : 17538
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef9"),
+        "id" : 25,
+        "movie_name " : "Open House ",
+        "movie_genre" : "Crime|Drama|Thriller",
+        " production_year " : 1990,
+        "budget" : 12173
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aefa"),
+        "id" : 26,
+        "movie_name " : "Dreamworlds II: Desire, Sex, Power in Music Video",
+        "movie_genre" : "Documentary",
+        " production_year " : 2017,
+        "budget" : 17597
+}
+Type "it" for more
+>
+>  db.users.find({$and : [{ " production_year " :{$gt:2000}},{"budget" : {$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee2"),
+        "id" : 2,
+        "movie_name " : "Downhill Racer",
+        "movie_genre" : "Drama",
+        " production_year " : 2001,
+        "budget" : 13029
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee3"),
+        "id" : 3,
+        "movie_name " : "Legally Blondes",
+        "movie_genre" : "Children|Comedy",
+        " production_year " : 2012,
+        "budget" : 19437
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee4"),
+        "id" : 4,
+        "movie_name " : "Mister Lonely",
+        "movie_genre" : "Comedy|Drama",
+        " production_year " : 2003,
+        "budget" : 18810
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee7"),
+        "id" : 7,
+        "movie_name " : "Caesar (Julius Caesar)",
+        "movie_genre" : "Drama|War",
+        " production_year " : 2003,
+        "budget" : 16525
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeea"),
+        "id" : 10,
+        "movie_name " : "My Neighbors the Yamadas (Hôhokekyo tonari no Yamada-kun)",
+        "movie_genre" : "Animation|Comedy",
+        " production_year " : 2016,
+        "budget" : 10385
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeeb"),
+        "id" : 11,
+        "movie_name " : "Kuffs",
+        "movie_genre" : "Action|Comedy|Crime",
+        " production_year " : 2006,
+        "budget" : 10039
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeec"),
+        "id" : 12,
+        "movie_name " : "Steal This Movie!",
+        "movie_genre" : "Drama",
+        " production_year " : 2018,
+        "budget" : 13919
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeed"),
+        "id" : 13,
+        "movie_name " : "Get Educated: Paathshaala",
+        "movie_genre" : "Drama",
+        " production_year " : 2010,
+        "budget" : 11053
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeee"),
+        "id" : 14,
+        "movie_name " : "Miracle in Milan (Miracolo a Milano)",
+        "movie_genre" : "Comedy|Drama|Fantasy",
+        " production_year " : 2012,
+        "budget" : 18920
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeef"),
+        "id" : 15,
+        "movie_name " : "In a Dark Place",
+        "movie_genre" : "Horror|Mystery|Thriller",
+        " production_year " : 2005,
+        "budget" : 18738
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef0"),
+        "id" : 16,
+        "movie_name " : "112 Weddings",
+        "movie_genre" : "Documentary|Romance",
+        " production_year " : 2009,
+        "budget" : 19986
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef1"),
+        "id" : 17,
+        "movie_name " : "Abandoned",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        " production_year " : 2019,
+        "budget" : 16420
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef2"),
+        "id" : 18,
+        "movie_name " : "P2",
+        "movie_genre" : "Horror|Thriller",
+        " production_year " : 2017,
+        "budget" : 17772
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef4"),
+        "id" : 20,
+        "movie_name " : "Son of Dracula",
+        "movie_genre" : "Horror",
+        " production_year " : 2008,
+        "budget" : 12368
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef6"),
+        "id" : 22,
+        "movie_name " : "There Goes My Heart",
+        "movie_genre" : "Comedy|Romance",
+        " production_year " : 2016,
+        "budget" : 14829
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef7"),
+        "id" : 23,
+        "movie_name " : "World on a Wire (Welt am Draht)",
+        "movie_genre" : "Crime|Sci-Fi",
+        " production_year " : 2014,
+        "budget" : 14214
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef8"),
+        "id" : 24,
+        "movie_name " : "Triangle",
+        "movie_genre" : "Drama|Horror|Mystery|Thriller",
+        " production_year " : 2001,
+        "budget" : 17538
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aefa"),
+        "id" : 26,
+        "movie_name " : "Dreamworlds II: Desire, Sex, Power in Music Video",
+        "movie_genre" : "Documentary",
+        " production_year " : 2017,
+        "budget" : 17597
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aefb"),
+        "id" : 27,
+        "movie_name " : "Swan Princess: The Mystery of the Enchanted Treasure, The",
+        "movie_genre" : "Animation|Children|Fantasy|Mystery",
+        " production_year " : 2006,
+        "budget" : 17143
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aefc"),
+        "id" : 28,
+        "movie_name " : "Fay Grim",
+        "movie_genre" : "Action|Thriller",
+        " production_year " : 2005,
+        "budget" : 18694
+}
+Type "it" for more
+
+
+
+
+
+>  db.users.find({$nor : [{ " production_year " :{$gt:2000}},{"budget" : {$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee1"),
+        "id" : 1,
+        "movie_name " : "Secret of NIMH, The",
+        "movie_genre" : "Adventure|Animation|Children|Drama",
+        " production_year " : 2000,
+        "budget" : 9389
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef3"),
+        "id" : 19,
+        "movie_name " : "Wild About Harry",
+        "movie_genre" : "Comedy|Drama|Romance",
+        " production_year " : 1996,
+        "budget" : 9019
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af1c"),
+        "id" : 60,
+        "movie_name " : "Beyond the Black Rainbow",
+        "movie_genre" : "Mystery|Sci-Fi",
+        " production_year " : 1994,
+        "budget" : 9168
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af2c"),
+        "id" : 76,
+        "movie_name " : "Tai Chi Master (Twin Warriors) (Tai ji: Zhang San Feng)",
+        "movie_genre" : "Action|Adventure|Comedy|Drama",
+        " production_year " : 1993,
+        "budget" : 9301
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af36"),
+        "id" : 86,
+        "movie_name " : "Blood of Dracula",
+        "movie_genre" : "Horror|Romance",
+        " production_year " : 2000,
+        "budget" : 9103
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af37"),
+        "id" : 87,
+        "movie_name " : "Shaka Zulu: The Citadel",
+        "movie_genre" : "Drama",
+        " production_year " : 1999,
+        "budget" : 9344
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af3d"),
+        "id" : 93,
+        "movie_name " : "Englishman in New York, An",
+        "movie_genre" : "Drama",
+        " production_year " : 1994,
+        "budget" : 9958
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af4a"),
+        "id" : 106,
+        "movie_name " : "MacGyver: Lost Treasure of Atlantis",
+        "movie_genre" : "Action|Adventure",
+        " production_year " : 1999,
+        "budget" : 9576
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af60"),
+        "id" : 128,
+        "movie_name " : "Wind Rises, The (Kaze tachinu)",
+        "movie_genre" : "Animation|Drama|Romance",
+        " production_year " : 1991,
+        "budget" : 9116
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af87"),
+        "id" : 167,
+        "movie_name " : "My Favorite Martian",
+        "movie_genre" : "Comedy|Sci-Fi",
+        " production_year " : 1998,
+        "budget" : 9260
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af90"),
+        "id" : 176,
+        "movie_name " : "Caught",
+        "movie_genre" : "Drama|Thriller",
+        " production_year " : 1994,
+        "budget" : 9184
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afb0"),
+        "id" : 208,
+        "movie_name " : "Bedevilled (Kim Bok-nam salinsageonui jeonmal)",
+        "movie_genre" : "Crime|Drama|Horror",
+        " production_year " : 1999,
+        "budget" : 9098
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afbd"),
+        "id" : 221,
+        "movie_name " : "Monte Walsh",
+        "movie_genre" : "Action|Adventure|Western",
+        " production_year " : 1992,
+        "budget" : 9283
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b028"),
+        "id" : 328,
+        "movie_name " : "Lawnmower Man, The",
+        "movie_genre" : "Action|Horror|Sci-Fi|Thriller",
+        " production_year " : 1992,
+        "budget" : 9597
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b06e"),
+        "id" : 398,
+        "movie_name " : "Nekromantik",
+        "movie_genre" : "Comedy|Horror",
+        " production_year " : 1997,
+        "budget" : 9481
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b072"),
+        "id" : 402,
+        "movie_name " : "Kevin Smith: Too Fat For 40",
+        "movie_genre" : "Comedy",
+        " production_year " : 1990,
+        "budget" : 9393
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b075"),
+        "id" : 405,
+        "movie_name " : "Tremors",
+        "movie_genre" : "Comedy|Horror|Sci-Fi",
+        " production_year " : 1990,
+        "budget" : 9342
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b079"),
+        "id" : 409,
+        "movie_name " : "Sister Kenny",
+        "movie_genre" : "Drama",
+        " production_year " : 1998,
+        "budget" : 9611
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b094"),
+        "id" : 436,
+        "movie_name " : "Ride the High Country",
+        "movie_genre" : "Adventure|Drama|Western",
+        " production_year " : 1995,
+        "budget" : 9943
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b0c5"),
+        "id" : 485,
+        "movie_name " : "The Lego Movie",
+        "movie_genre" : "Action|Adventure|Animation|Children|Comedy|Fantasy",
+        " production_year " : 1991,
+        "budget" : 9632
+}
+>
+> db.users.find({$or : [{ " production_year " :{$not:2000}},{"budget" : {$not:10000}}]}).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "$not needs a regex or a document",
+        "code" : 2,
+        "codeName" : "BadValue"
+}
+> db.users.find({$or : [{ " production_year " :{$not:{2000}}},{"budget" : {$not:{10000}}}]}).pretty()
+uncaught exception: SyntaxError: missing : after property id :
+@(shell):1:56
+> db.users.find({$or : [{ " production_year " :{$not:{$eq:2000}}},{"budget" : {$not:{$eq:10000}}}]}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee1"),
+        "id" : 1,
+        "movie_name " : "Secret of NIMH, The",
+        "movie_genre" : "Adventure|Animation|Children|Drama",
+        " production_year " : 2000,
+        "budget" : 9389
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee2"),
+        "id" : 2,
+        "movie_name " : "Downhill Racer",
+        "movie_genre" : "Drama",
+        " production_year " : 2001,
+        "budget" : 13029
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee3"),
+        "id" : 3,
+        "movie_name " : "Legally Blondes",
+        "movie_genre" : "Children|Comedy",
+        " production_year " : 2012,
+        "budget" : 19437
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee4"),
+        "id" : 4,
+        "movie_name " : "Mister Lonely",
+        "movie_genre" : "Comedy|Drama",
+        " production_year " : 2003,
+        "budget" : 18810
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee5"),
+        "id" : 5,
+        "movie_name " : "Ultramarathon Man: 50 Marathons, 50 States, 50 Days",
+        "movie_genre" : "Documentary",
+        " production_year " : 1996,
+        "budget" : 19374
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee6"),
+        "id" : 6,
+        "movie_name " : "Piano, The",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 1990,
+        "budget" : 11213
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee7"),
+        "id" : 7,
+        "movie_name " : "Caesar (Julius Caesar)",
+        "movie_genre" : "Drama|War",
+        " production_year " : 2003,
+        "budget" : 16525
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee8"),
+        "id" : 8,
+        "movie_name " : "Killing Me Softly",
+        "movie_genre" : "Drama|Mystery|Romance|Thriller",
+        " production_year " : 1993,
+        "budget" : 17838
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee9"),
+        "id" : 9,
+        "movie_name " : "Hole in the Head, A",
+        "movie_genre" : "Comedy|Musical",
+        " production_year " : 1991,
+        "budget" : 14955
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeea"),
+        "id" : 10,
+        "movie_name " : "My Neighbors the Yamadas (Hôhokekyo tonari no Yamada-kun)",
+        "movie_genre" : "Animation|Comedy",
+        " production_year " : 2016,
+        "budget" : 10385
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeeb"),
+        "id" : 11,
+        "movie_name " : "Kuffs",
+        "movie_genre" : "Action|Comedy|Crime",
+        " production_year " : 2006,
+        "budget" : 10039
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeec"),
+        "id" : 12,
+        "movie_name " : "Steal This Movie!",
+        "movie_genre" : "Drama",
+        " production_year " : 2018,
+        "budget" : 13919
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeed"),
+        "id" : 13,
+        "movie_name " : "Get Educated: Paathshaala",
+        "movie_genre" : "Drama",
+        " production_year " : 2010,
+        "budget" : 11053
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeee"),
+        "id" : 14,
+        "movie_name " : "Miracle in Milan (Miracolo a Milano)",
+        "movie_genre" : "Comedy|Drama|Fantasy",
+        " production_year " : 2012,
+        "budget" : 18920
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeef"),
+        "id" : 15,
+        "movie_name " : "In a Dark Place",
+        "movie_genre" : "Horror|Mystery|Thriller",
+        " production_year " : 2005,
+        "budget" : 18738
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef0"),
+        "id" : 16,
+        "movie_name " : "112 Weddings",
+        "movie_genre" : "Documentary|Romance",
+        " production_year " : 2009,
+        "budget" : 19986
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef1"),
+        "id" : 17,
+        "movie_name " : "Abandoned",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        " production_year " : 2019,
+        "budget" : 16420
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef2"),
+        "id" : 18,
+        "movie_name " : "P2",
+        "movie_genre" : "Horror|Thriller",
+        " production_year " : 2017,
+        "budget" : 17772
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef3"),
+        "id" : 19,
+        "movie_name " : "Wild About Harry",
+        "movie_genre" : "Comedy|Drama|Romance",
+        " production_year " : 1996,
+        "budget" : 9019
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef4"),
+        "id" : 20,
+        "movie_name " : "Son of Dracula",
+        "movie_genre" : "Horror",
+        " production_year " : 2008,
+        "budget" : 12368
+}
+Type "it" for more
+>
+
+
+ db.users.find({ " production_year " :{$in:[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010]}}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee1"),
+        "id" : 1,
+        "movie_name " : "Secret of NIMH, The",
+        "movie_genre" : "Adventure|Animation|Children|Drama",
+        " production_year " : 2000,
+        "budget" : 9389
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee2"),
+        "id" : 2,
+        "movie_name " : "Downhill Racer",
+        "movie_genre" : "Drama",
+        " production_year " : 2001,
+        "budget" : 13029
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee4"),
+        "id" : 4,
+        "movie_name " : "Mister Lonely",
+        "movie_genre" : "Comedy|Drama",
+        " production_year " : 2003,
+        "budget" : 18810
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aee7"),
+        "id" : 7,
+        "movie_name " : "Caesar (Julius Caesar)",
+        "movie_genre" : "Drama|War",
+        " production_year " : 2003,
+        "budget" : 16525
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeeb"),
+        "id" : 11,
+        "movie_name " : "Kuffs",
+        "movie_genre" : "Action|Comedy|Crime",
+        " production_year " : 2006,
+        "budget" : 10039
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeed"),
+        "id" : 13,
+        "movie_name " : "Get Educated: Paathshaala",
+        "movie_genre" : "Drama",
+        " production_year " : 2010,
+        "budget" : 11053
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aeef"),
+        "id" : 15,
+        "movie_name " : "In a Dark Place",
+        "movie_genre" : "Horror|Mystery|Thriller",
+        " production_year " : 2005,
+        "budget" : 18738
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef0"),
+        "id" : 16,
+        "movie_name " : "112 Weddings",
+        "movie_genre" : "Documentary|Romance",
+        " production_year " : 2009,
+        "budget" : 19986
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef4"),
+        "id" : 20,
+        "movie_name " : "Son of Dracula",
+        "movie_genre" : "Horror",
+        " production_year " : 2008,
+        "budget" : 12368
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef8"),
+        "id" : 24,
+        "movie_name " : "Triangle",
+        "movie_genre" : "Drama|Horror|Mystery|Thriller",
+        " production_year " : 2001,
+        "budget" : 17538
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aefb"),
+        "id" : 27,
+        "movie_name " : "Swan Princess: The Mystery of the Enchanted Treasure, The",
+        "movie_genre" : "Animation|Children|Fantasy|Mystery",
+        " production_year " : 2006,
+        "budget" : 17143
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aefc"),
+        "id" : 28,
+        "movie_name " : "Fay Grim",
+        "movie_genre" : "Action|Thriller",
+        " production_year " : 2005,
+        "budget" : 18694
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af00"),
+        "id" : 32,
+        "movie_name " : "Gambit",
+        "movie_genre" : "Comedy|Crime",
+        " production_year " : 2000,
+        "budget" : 18373
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af04"),
+        "id" : 36,
+        "movie_name " : "Ewok Adventure, The (a.k.a. Caravan of Courage: An Ewok Adventure)",
+        "movie_genre" : "Adventure|Children|Fantasy|Sci-Fi",
+        " production_year " : 2006,
+        "budget" : 19671
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af05"),
+        "id" : 37,
+        "movie_name " : "Friday the 13th Part V: A New Beginning",
+        "movie_genre" : "Horror",
+        " production_year " : 2009,
+        "budget" : 12277
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af09"),
+        "id" : 41,
+        "movie_name " : "Whity",
+        "movie_genre" : "Drama|Western",
+        " production_year " : 2004,
+        "budget" : 14258
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af0f"),
+        "id" : 47,
+        "movie_name " : "Luna de Avellaneda",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 2007,
+        "budget" : 17161
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af10"),
+        "id" : 48,
+        "movie_name " : "Wrestling for Jesus: The Tale of T-Money",
+        "movie_genre" : "Documentary",
+        " production_year " : 2004,
+        "budget" : 10833
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af11"),
+        "id" : 49,
+        "movie_name " : "Passing Fancy (Dekigokoro)",
+        "movie_genre" : "Drama",
+        " production_year " : 2007,
+        "budget" : 9777
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af1e"),
+        "id" : 62,
+        "movie_name " : "The Sweet Ride",
+        "movie_genre" : "Drama",
+        " production_year " : 2001,
+        "budget" : 13765
+}
+Type "it" for more
+>
+
+
+> db.users.find().sort({ " production_year ": -1,  "movie_name ": -1}).pretty()
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aff6"),
+        "id" : 278,
+        "movie_name " : "Winter Light (Nattvardsgästerna)",
+        "movie_genre" : "Drama",
+        " production_year " : 2020,
+        "budget" : 16106
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b01f"),
+        "id" : 319,
+        "movie_name " : "Sitting Bull",
+        "movie_genre" : "Western",
+        " production_year " : 2020,
+        "budget" : 17727
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b0d3"),
+        "id" : 499,
+        "movie_name " : "Poison",
+        "movie_genre" : "Comedy",
+        " production_year " : 2020,
+        "budget" : 15229
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b018"),
+        "id" : 312,
+        "movie_name " : "Oyster Farmer",
+        "movie_genre" : "Drama",
+        " production_year " : 2020,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aff5"),
+        "id" : 277,
+        "movie_name " : "Nymphomaniac: Volume II",
+        "movie_genre" : "Drama|Mystery",
+        " production_year " : 2020,
+        "budget" : 17179
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b04f"),
+        "id" : 367,
+        "movie_name " : "Merantau",
+        "movie_genre" : "Action|Drama",
+        " production_year " : 2020,
+        "budget" : 15033
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858afbb"),
+        "id" : 219,
+        "movie_name " : "Gamera vs. Barugon",
+        "movie_genre" : "Action|Fantasy|Sci-Fi",
+        " production_year " : 2020,
+        "budget" : 16369
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b013"),
+        "id" : 307,
+        "movie_name " : "Frozen North, The",
+        "movie_genre" : "Comedy",
+        " production_year " : 2020,
+        "budget" : 17344
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af62"),
+        "id" : 130,
+        "movie_name " : "Bustin' Down the Door",
+        "movie_genre" : "Documentary",
+        " production_year " : 2020,
+        "budget" : 14588
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b060"),
+        "id" : 384,
+        "movie_name " : "Black Lightning (Chernaya Molniya)",
+        "movie_genre" : "Action|Adventure|Sci-Fi",
+        " production_year " : 2020,
+        "budget" : 17976
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b0c3"),
+        "id" : 483,
+        "movie_name " : "Beastmaster, The",
+        "movie_genre" : "Action|Adventure|Fantasy",
+        " production_year " : 2020,
+        "budget" : 18241
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858af4d"),
+        "id" : 109,
+        "movie_name " : "Asterix: The Land of the Gods",
+        "movie_genre" : "Animation",
+        " production_year " : 2020,
+        "budget" : 16919
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b00a"),
+        "id" : 298,
+        "movie_name " : "Wild Grass (Herbes folles, Les)",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 2019,
+        "budget" : 18382
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b096"),
+        "id" : 438,
+        "movie_name " : "Dream for an Insomniac",
+        "movie_genre" : "Drama|Romance",
+        " production_year " : 2019,
+        "budget" : 10695
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b0c0"),
+        "id" : 480,
+        "movie_name " : "Deceit",
+        "movie_genre" : "Sci-Fi",
+        " production_year " : 2019,
+        "budget" : 19978
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b009"),
+        "id" : 297,
+        "movie_name " : "Commandments",
+        "movie_genre" : "Romance",
+        " production_year " : 2019,
+        "budget" : 18339
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b09e"),
+        "id" : 446,
+        "movie_name " : "Baby... Secret of the Lost Legend",
+        "movie_genre" : "Adventure|Sci-Fi",
+        " production_year " : 2019,
+        "budget" : 14363
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858aef1"),
+        "id" : 17,
+        "movie_name " : "Abandoned",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        " production_year " : 2019,
+        "budget" : 16420
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b02e"),
+        "id" : 334,
+        "movie_name " : "Vlad Tepes (Vlad &#354;epe&#351;)",
+        "movie_genre" : "Drama",
+        " production_year " : 2018,
+        "budget" : 9477
+}
+{
+        "_id" : ObjectId("62276057ac9fb44e4858b032"),
+        "id" : 338,
+        "movie_name " : "Vampires",
+        "movie_genre" : "Comedy|Fantasy|Horror",
+        " production_year " : 2018,
+        "budget" : 17208
+}
+Type "it" for more
+>
