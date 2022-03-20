@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 
-module.exports = () => {
+const connect = () => {
   return mongoose.connect(
-    "mongodb://localhost:27017/Assign"
+    "mongodb://localhost:27017/web-15"
   );
 };
+
+module.exports = connect;
