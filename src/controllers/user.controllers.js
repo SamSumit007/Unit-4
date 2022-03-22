@@ -19,7 +19,7 @@ router.get("", async (req, res) => {
 
 router.post("", upload.single("profilePic"), async (req, res) => {
   try {
-    //   const user = await User.create(req.body)
+  
     const user = await User.create({
       first_name: req.body.first_name,
       last_name: req.body.last_name,
@@ -46,6 +46,23 @@ router.post("/multiple", upload.any("profile_pic"), async (req, res) => {
     return res.status(200).send(user);
   } catch (err) {
     return res.status(500).send({ message: err.message });
+  }
+});
+
+router.patch("/:user_id", async (req, res) => {
+  try {
+    const user = await User.findByIdAndUpdate(req.params.id).lean().exec();
+    res.send(user);
+  } catch (e) {
+    res.send({ error: e.message });
+  }
+});
+router.delete("/:user_id", async (req, res) => {
+  try {
+    const user = await User.findByIdAndDelete(req.params.id).lean().exec();
+    res.send(user);
+  } catch (e) {
+    res.send({ error: e.message });
   }
 });
 

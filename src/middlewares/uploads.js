@@ -4,7 +4,7 @@ const req = require("express/lib/request");
 
 const storage = multer.diskStorage({
   destination: function (req, file, callback) {
-    callback(null, path.join(__dirname, "../my-uploads"));
+    callback(null, path.join(__dirname, "../uploads"));
   },
   filename: function (req, file, callback) {
     const uniquePrefix = Date.now();
@@ -25,14 +25,13 @@ const fileFilter = (req, file, callback) => {
   }
 };
 
-const options = {
-  storage,
-  fileFilter,
+const upload = multer({
+  storage: storage,
   limits: {
-    fileSize: 1024 * 1024 * 5,
+    fileSize: 1024 * 1024 * 10,
   },
-};
-
+  fileFilter: fileFilter,
+});
 
 
 const uploads = multer(options);

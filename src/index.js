@@ -1,11 +1,14 @@
 const express = require("express");
+const app = express();
 
 const userControllers = require("./controllers/user.controllers");
+app.use("/users", userControllers);
 
-const app = express();
+const galleryController = require("./controllers/gallery.controller");
+app.use("/gallery", galleryController);
+
 
 app.use(express.json());
 
-app.use("/users", userControllers);
 
 module.exports = app;
