@@ -5,7 +5,7 @@ const Evaluation = require("../models/evaluation.model");
 
 const router = express.Router();
 
-router.post("/evaluation", async (req, res) => {
+router.post("", async (req, res) => {
     try {
       const evaluation = await Evaluation.create(req.body);
   
@@ -18,7 +18,7 @@ router.post("/evaluation", async (req, res) => {
   
   
   
-  router.get("/evalution/:id", async (req, res) => {
+  router.get("/:id", async (req, res) => {
     try {
       const user = await Evaluation.findById(req.params.id).lean().exec();
   

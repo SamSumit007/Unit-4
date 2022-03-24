@@ -6,7 +6,7 @@ const Submission = require("../models/submission.model");
 const router = express.Router();
 
 
-router.get("/submission", async (req, res) => {
+router.get("", async (req, res) => {
     try {
       const Submissions = await Submission.find()
         .populate({ path: "student_id", select: "user" })
@@ -19,7 +19,7 @@ router.get("/submission", async (req, res) => {
     }
   });
   
-  router.post("/submission", async (req, res) => {
+  router.post("", async (req, res) => {
     try {
       const submission = await Submission.create(req.body);
   

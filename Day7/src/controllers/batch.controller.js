@@ -5,7 +5,7 @@ const Batch = require("../models/batch.model");
 
 const router = express.Router();
 
-router.post("/batch", async (req, res) => {
+router.post("", async (req, res) => {
     try {
       const batch = await Batch.create(req.body);
   
